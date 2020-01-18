@@ -1,0 +1,530 @@
+/*!
+ * Custom Bootstrap v3.3.4 (http://getbootstrap.com) designed by Luciano Perezzini.
+ * Copyright 2016 Promm, Inc.
+ */
+
+/*body {
+	margin: 100px;
+}*/
+
+body {
+	padding-top: 100px;
+	padding-bottom: 30px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400; 
+}
+
+
+.green-text {
+	color: #009933;
+}
+
+.white-text {
+	color: white;
+}
+
+.lightBlue-text {
+	color: #00CCFF;
+}
+
+.gray-text {
+	color: #999999;
+}
+
+.title {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.pacifico {
+	font-family: 'Pacifico', cursive;
+}
+
+/***************************************************
+ ******************** NAVBAR ****************
+ ***************************************************/
+
+.navbar {
+	background-color: #009933;
+	border-color: #00CCFF;
+	border-bottom-width: 3px;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #009933;
+}
+
+/***************************************************
+ ***************************************************
+ ***************************************************/
+
+/***************************************************
+ ******************** PROMM BUTTONS ****************
+ ***************************************************/
+
+/* Promm Light Blue Btn */
+.btn-lightBlue {
+	padding: 15px 20px;
+	color: #00CCFF;
+	border-radius: 30px;
+	border-color: #00CCFF;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-lightBlue:hover {
+	color: #00CCFF;
+}
+
+/* Promm White Btn */
+.btn-white {
+	padding: 15px 20px;
+	color: white;
+	border-radius: 30px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-white:hover {
+	color: white;
+}
+
+/* Promm Green Btn */
+.btn-green {
+	padding: 15px 20px;
+	color: #009933;
+	border-radius: 30px;
+	border-color: #009933;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-green:hover {
+	color: #009933;
+}
+
+/* Promm Light Blue Btn (Hover: Light Blue) */
+.btn-lightBlue-lightBlueHover {
+	padding: 15px 20px;
+	color: #00CCFF;
+	border-radius: 30px;
+	border-color: #00CCFF;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-lightBlue-lightBlueHover:hover {
+	color: white;
+	background-color: #00CCFF;
+}
+
+/* Promm Green Btn (Hover: Green) */
+.btn-green-greenHover {
+	padding: 15px 20px;
+	color: #009933;
+	border-radius: 30px;
+	border-color: #009933;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-green-greenHover:hover {
+	color: white;
+	background-color: #009933;
+}
+
+/* Promm Green Btn (Hover: lightBlue) */
+.btn-green-lightBlueHover {
+	padding: 15px 20px;
+	color: #009933;
+	border-radius: 30px;
+	border-color: #009933;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-green-lightBlueHover:hover {
+	color: white;
+	background-color: #00CCFF;
+}
+
+/* Promm White Btn (Hover: Light Blue) */
+.btn-white-lightBlueHover {
+	padding: 15px 20px;
+	color: white;
+	border-radius: 30px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn-white-lightBlueHover:hover {
+	color: white;
+	background-color: #00CCFF;
+}
+
+/***************************************************
+ ***************************************************
+ ***************************************************/
+
+.thumbnail {
+	background-color: transparent;
+	border: none;
+}
+
+/***************************************************
+ ***************** GREEN BOX FORM ******************
+ ***************************************************/
+.green-box {
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid #009933;
+	border-radius: 70px;
+	outline: 0;
+
+}
+.green-box-body {
+	padding: 15px;
+}
+.green-box-heading {
+	min-height: 16.43px;
+	padding: 20px;
+	background-color: #009933;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 70px;
+	border-top-left-radius: 70px;
+	margin-bottom: 10px;
+}
+.green-box-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+}
+.green-box-subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #009933;
+}
+.green-box-label {
+	color: #009933;
+}
+
+/***************************************************
+ ***************************************************
+ ***************************************************/
+
+ /**************************************************
+ **************** LIGHT BLUE BOX *******************
+ ***************************************************/
+
+ .lightBlue-box {
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid #00CCFF;
+	border-radius: 70px;
+	outline: 0;
+
+}
+.lightBlue-box-body {
+	padding: 15px;
+}
+.lightBlue-box-heading {
+	min-height: 16.43px;
+	padding: 20px;
+	background-color: #00CCFF;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 70px;
+	border-top-left-radius: 70px;
+	margin-bottom: 20px;
+}
+.lightBlue-box-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+}
+.lightBlue-box-subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #00CCFF;
+}
+.lightBlue-box-label {
+	color: #00CCFF;
+}
+
+/***************************************************
+ ***************************************************
+ ***************************************************/
+
+ .navbar-brand {
+ 	font-size: 23px;
+ 	font-family: 'Pacifico', cursive;
+ }
+
+/***************************************************
+ ******************* STORE CARD *********************
+ ***************************************************/
+
+.store-card {
+	background: url(/img/backgrounds/store_card.png) no-repeat center top #FFF; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	border-style: 1px solid;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	-webkit-box-shadow: 0px 0px 92px -31px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 92px -31px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 92px -31px rgba(0,0,0,0.75);
+	
+}
+.store-card-title {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 60px;
+}
+.store-card-img {
+	padding-bottom: 30px;
+}
+.store-card-counter {
+	color: white;
+	text-align: right;
+}
+.store-card-info {
+	color: white;
+	padding-bottom: 10px;
+}
+.store-card-question {
+	text-align: right;
+}
+
+/***************************************************
+ ***************************************************
+ ***************************************************/
+
+ .nav-bar-icon {
+ 	font-size: 16px;"
+ }
+
+ /***************************************************
+ *********************** MODALS *********************
+ ***************************************************/
+ .modal-content-promm {
+	position: relative;
+	background-color: white;
+	border: 1px solid #999999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	-webkit-background-clip: padding-box;
+	      background-clip: padding-box;
+	outline: 0;
+}
+
+.modal-header-promm {
+	padding: 15px;
+	text-align: center;
+}
+
+.modal-header-promm .close {
+  margin-top: -2px;
+  font-size: 25px;
+}
+
+.modal-title-promm {
+	margin: 0;
+	font-size: 30px;
+	color: #00CCFF;
+}
+
+.modal-body-promm {
+	position: relative;
+	padding: 15px;
+	text-align: center;
+	font-size: 16px;
+}
+.modal-footer-promm {
+	padding: 15px;
+	text-align: right;
+}
+
+.modal-footer-promm .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.modal-footer-promm .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer-promm .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+.store-description-content {
+	background: url(/img/backgrounds/store_card.png) no-repeat center top #FFF;
+	border-radius: 10px;
+}
+
+.store-description-header {
+	text-align: left;
+}
+
+.store-description-title {
+	color: white;
+	text-align: left;
+	font-size: 25px;
+}
+
+.store-description-body {
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+
+.close-store-description {
+	color: white;
+	opacity: 0;
+}
+
+.photo-album {
+	margin-top: 100px;
+}
+
+.album {
+	text-align: center;
+}
+
+.carousel-control {
+	font-size: 25px;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background: transparent;
+}
+
+.blur-background {
+	background: url(/img/backgrounds/store_card.png) no-repeat center top #FFF;
+}
+
+.blur-background-intro {
+	background: url(/img/backgrounds/promm_blur.png) no-repeat center top #FFF;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.img-responsive-thumbnail {
+	margin-top: 10px;
+}
+
+.profile-img-welcome {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 0px 106px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 106px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 106px -6px rgba(0,0,0,0.75);
+}
+
+.banner {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	top: 0; 
+	background: url(/img/backgrounds/promm_blur.png) no-repeat center top #FFF; 
+	background-size: cover;
+	width: 100%; 
+	padding: 30px;
+}
+
+.icon-title {
+	font-size: 50px;
+}
+
+.form-promm {
+	margin-top: 30px;
+	border-radius: 7px;
+	text-align: center;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.form-promm-title {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.form-promm-subtitle {
+	margin-bottom: 20px;
+}
+
+.form-promm-label {
+	margin-bottom: 20px;
+}
+
+.form-promm-btn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* Promm Light Blue Pacifico Btn */
+.btn-lightBlue-pacifico {
+	font-family: 'Pacifico', cursive;
+	padding: 15px 20px;
+	color: #00CCFF;
+	background-color: transparent;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+
+.btn-lightBlue-pacifico:hover {
+	color: #00CCFF;
+}
+
+.box-shadow-1 {
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.box-shadow-2 {
+	-webkit-box-shadow: 0px 0px 44px -11px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 44px -11px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 44px -11px rgba(0,0,0,0.75);
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: black;
+  }

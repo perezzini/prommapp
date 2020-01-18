@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding-top: 0;
+    height: 100%;
+}
+div.topdiv {
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50%;
+    background: url(../img/backgrounds/promm_blur.png) no-repeat center top #fff;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+div.bottomdiv {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    background-color: white;
+    padding-top: 40px;
+}
